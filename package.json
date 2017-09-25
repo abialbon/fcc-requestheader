@@ -1,0 +1,26 @@
+{
+  "name": "fcc-requestheader",
+  "version": "1.0.0",
+  "description": "A simple api to parse request header",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/abialbon/fcc-requestheader.git"
+  },
+  "keywords": [
+    "FCC",
+    "API"
+  ],
+  "author": "Abialbon Paul",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abialbon/fcc-requestheader/issues"
+  },
+  "homepage": "https://github.com/abialbon/fcc-requestheader#readme",
+  "dependencies": {
+    "express": "^4.15.5"
+  }
+}
