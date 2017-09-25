@@ -5,7 +5,7 @@ const IP = process.env.IP || '127.0.0.1';
 
 app.get('/', (req, res) => {
     let responseObject = {};
-    responseObject.ipaddress = req.headers.host;
+    responseObject.ipaddress = req.headers["x-forwarded-for"].split(",")[0];
     responseObject.language = req.headers["accept-language"].split(',')[0];
     // Software name in ()
     let softwareBracks = req.headers["user-agent"].match(/\(.*?\)/)[0];
